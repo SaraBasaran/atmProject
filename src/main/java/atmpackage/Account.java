@@ -11,7 +11,13 @@ public class Account {
 
     Scanner scan = new Scanner(System.in);
     DecimalFormat moneyFormat = new DecimalFormat("'$'###,##0.00");
-
+    // after git commit we need to push yes actually I did in the same way Bulutlu teacher showed but it always gave error
+    //for .gitignore... But I dont see error gitignore. That file u showed me is default gitignore file. it is empty
+// You are in the wrong folder in cmd
+    ///check before git init if it is a git repo or not
+    // if it is not a git repo strart with git init
+    //you can check it with git status
+    //That repo? a new one would be better okey
     public int getAccountNumber() {
         return accountNumber;
     }
